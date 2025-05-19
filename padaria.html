@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria Hot Pães</title>
+</head>
+<body>
+    <script>
+        var precoPao = Number(0.12)
+        var precobroa = Number(1.50)
+
+        var pao = Number(prompt("Quantos pães foram vendidos: "))
+        var broa = Number(prompt("Quantas broas foram vendidas: "))
+
+        var valorDePaes = pao * precoPao
+        var valordeBroa = broa * precobroa
+
+        var valorTotal = valorDePaes + valordeBroa
+
+        var poupanca = valorTotal*10/100
+
+        alert("Você arrecadou"+valorTotal+" com pães e broas.")
+        alert("Você deve guardar na poupança "+poupanca)
+    </script>
+</body>
+</html>
